@@ -14,6 +14,7 @@
 		BC95D687232EF6EB005940BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC95D686232EF6EB005940BB /* Preview Assets.xcassets */; };
 		BC95D68A232EF6EB005940BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC95D688232EF6EB005940BB /* LaunchScreen.storyboard */; };
 		BC95D695232EF6EB005940BB /* swift_ui_reactive_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95D694232EF6EB005940BB /* swift_ui_reactive_demoTests.swift */; };
+		BC95D6A0232F0704005940BB /* View+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC95D69F232F0704005940BB /* View+Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BC95D690232EF6EB005940BB /* swift-ui-reactive-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-ui-reactive-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC95D694232EF6EB005940BB /* swift_ui_reactive_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_ui_reactive_demoTests.swift; sourceTree = "<group>"; };
 		BC95D696232EF6EB005940BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC95D69F232F0704005940BB /* View+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				BC95D688232EF6EB005940BB /* LaunchScreen.storyboard */,
 				BC95D68B232EF6EB005940BB /* Info.plist */,
 				BC95D685232EF6EB005940BB /* Preview Content */,
+				BC95D69F232F0704005940BB /* View+Style.swift */,
 			);
 			path = "swift-ui-reactive-demo";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC95D67E232EF6E8005940BB /* AppDelegate.swift in Sources */,
+				BC95D6A0232F0704005940BB /* View+Style.swift in Sources */,
 				BC95D680232EF6E8005940BB /* SceneDelegate.swift in Sources */,
 				BC95D682232EF6E8005940BB /* ContentView.swift in Sources */,
 			);
